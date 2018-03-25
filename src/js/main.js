@@ -13,7 +13,7 @@ class App {
     *   App Methods   
     */    
     log() {
-        console.log('Msg');
+        console.log('msg');
     };
 };
 
