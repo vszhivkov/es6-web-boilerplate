@@ -13,10 +13,7 @@ class App {
     *   App Methods   
     */    
     log() {
-        const string = 'mitko';
-        const arr = [...string];
-
-        console.log(arr);
+        console.log('Msg');
     };
 };
 
