@@ -67,7 +67,7 @@ gulp.task('watch', () => {
 		.watch(`${paths.build}/*.html`)
 			.on('change', browserSync.reload);
 	gulp
-		.watch(`${paths.src}/js/*.js`)
+		.watch(`${paths.src}/js/**/*.js`)
 			.on('change', browserSync.reload);
 	gulp.watch(`${paths.src}/js/**/*.js`, ['webpack']);
 });
