@@ -20,5 +20,5 @@
 #### Build process:
 - yarn build / npm run build
 #### Minifying process:
-- yarn minify / npm minify
+- yarn minify / npm run minify
  
