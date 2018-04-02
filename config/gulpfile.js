@@ -54,6 +54,8 @@ gulp.task('webpack', () => {
 *	Watch Task
 */
 gulp.task('watch', () => {
+	sequence('sass', 'autoprefix', 'webpack');
+	
 	browserSync.init({
 		server: {
 			baseDir: `${paths.build}`,
